@@ -1,0 +1,14 @@
+.p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: .2s;
+}
+
+.p:hover {
+  cursor: pointer;
+  color: var(--laranja-principal);
+}
+
+.selected {
+  color: var(--laranja-principal);
+}

@@ -1,0 +1,14 @@
+.link {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--preto);
+  transition: .2s;
+}
+
+.link:hover {
+  color: var(--laranja-principal);
+}
+
+.linkSublinhado {
+  color: var(--laranja-principal);
+}

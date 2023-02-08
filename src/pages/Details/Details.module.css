@@ -1,0 +1,156 @@
+ul {
+  padding: 0;
+}
+
+.contentMovie {
+  margin-top: 30px;
+  padding: 20px 40px;
+  background-color:#ffffff ;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+.contentMovie img {
+  width: 273px;
+  height: 405px;
+}
+
+.detalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 35%;
+  gap: 20px;
+  
+}
+
+.sinopse {
+  max-height: 244px;
+  overflow-y:scroll;
+}
+
+.sinopse::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 20px;
+}
+
+.sinopse::-webkit-scrollbar-thumb {
+  width: 18px;
+  background-color: var(--laranja-principal) ;
+  border-radius: 20px;
+  border: solid 3px var(--branco-bg);
+}
+
+.content {
+  display: inline-block;
+  overflow: hidden;
+  background-color: #ffedd5;
+  color: var(--preto);
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.atores {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: none;
+  margin-left: 137.5px;
+}
+
+.atores ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.atores ul li {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.comments {
+  padding: 30px;
+  background-color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.comments h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.containerForm {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.field input{
+  background-color: var(--branco-bg);
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.listComments {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.likes span {
+  background-color: #ffedd5;
+  color: var(--preto);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  transition: all ease 0.2s
+}
+
+.likes button {
+  margin-top: 60px;
+  background-color: transparent;
+  color: var(--preto);
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.likes button:hover span {
+  opacity: 0.75;
+}
+
+.submit {
+  background-color: var(--branco-bg);
+  color: var(--preto);
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: all ease 0.2s;
+  border: 2px solid var(--preto);
+  cursor: pointer;
+}
+
+.submit:hover {
+  opacity: 0.8;
+}

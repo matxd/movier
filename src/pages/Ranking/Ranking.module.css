@@ -1,0 +1,14 @@
+.h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.containerOrdenado {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}

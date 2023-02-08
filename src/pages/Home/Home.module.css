@@ -1,0 +1,14 @@
+main h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.containerList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  min-height: 100vh; 
+}
